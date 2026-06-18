@@ -33,7 +33,7 @@ PatchDB is a Python + JS database where **writes are local JSON edits** and **re
 
 ```
             ┌────────────────────────┐
-            │  ~/.patchdb/db.json     │  ← one file, all data
+            │  ~/.patchdb/db.json    │  ← one file, all data
             │  {                     │
             │    "users": [...],     │
             │    "config": {...},    │
@@ -54,7 +54,7 @@ PatchDB is a Python + JS database where **writes are local JSON edits** and **re
 ### Install
 
 ```bash
-cd PrayDB
+cd patchdb
 python3 -m pip install -e .
 export OPENROUTER_API_KEY="sk-or-..."
 ```
